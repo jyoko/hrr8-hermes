@@ -12,7 +12,7 @@ var process_dirs = [  '/',
 
 var context = {};
 context.socketCDN = 'https://cdn.socket.io/socket.io-1.3.5.js';
-context.babylonCDN = 'http://cdn.babylonjs.com/2-2/babylon.js';
+context.babylonCDN = 'https://cdn.babylonjs.com/2-2/babylon.js';
 
 if (process.argv[2]==='debug') {
   context.DEBUG = 'true';
